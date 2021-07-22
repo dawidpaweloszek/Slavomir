@@ -33,7 +33,8 @@ public class Musket : MonoBehaviour
 
             if (target != null)
             {
-                Debug.Log("target");
+                Destroy(hit.transform.gameObject);
+                Targets.instance.TargetsCount--;
             }
         }
     }

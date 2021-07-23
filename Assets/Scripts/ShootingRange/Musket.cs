@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Musket : MonoBehaviour
 {
-    [SerializeField] private Transform endOfMusket;
-    [SerializeField] private GameObject projectile;
+    [SerializeField] private Animator animator;
     [SerializeField] private float reloadTime;
     [SerializeField] private Camera camera;
+    [SerializeField] private ParticleSystem[] particleSystem;
 
     private void Update()
     {
@@ -16,10 +16,20 @@ public class Musket : MonoBehaviour
             if (Input.GetButtonDown("Fire1"))
             {
                 Shoot();
-                reloadTime = 1;
+                animator.SetTrigger("IsShooting 0");
+                reloadTime = 2.5f + 0.375f;
+
+                ParticleSystem.EmitParams emitOverride = new ParticleSystem.EmitParams();
+                emitOverride.startLifetime = 10f;
+
+                for (int i = 0; i < particleSystem.Length; i++)
+                {
+                    particleSystem[i].Emit(emitOverride, 7);
+                    particleSystem[i].transform.position = GameObject.Find("muszkiet_z_rekoma").transform.position;
+                }
             }
         }
-
+        
         reloadTime -= Time.deltaTime;
     }
 

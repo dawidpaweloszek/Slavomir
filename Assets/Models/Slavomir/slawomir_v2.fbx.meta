@@ -4,92 +4,45 @@ ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: -4761111498005746133
-    second: metarig_slawomir.001|female.001Action
+      74: -8013380232700671233
+    second: metarig_slawomir|Idle_nowe
   - first:
-      74: 6888633430333651952
-    second: metarig_slawomir.001|female.001Action.002
+      74: -1508397468817189455
+    second: metarig_slawomir|Jump
   - first:
-      74: -2326028147868880077
-    second: metarig_slawomir.001|fryderyk.002Action
+      74: -6227996491643461268
+    second: metarig_slawomir|Mowa_1
   - first:
-      74: 6665816231143812285
-    second: metarig_slawomir.001|fryderyk.002Action.001
+      74: -4403852054793335562
+    second: metarig_slawomir|Picie_Chwianie_sie_do_przodu
   - first:
-      74: -5805632526806120166
-    second: metarig_slawomir.001|fryderyk.002Action.002
+      74: 155129817444245842
+    second: metarig_slawomir|Picie_Chwianie_sie_lewo
   - first:
-      74: 1847279467477783377
-    second: metarig_slawomir.001|Idle.001
+      74: 8291516970553232908
+    second: metarig_slawomir|Picie_Chwianie_sie_w_miejscu
   - first:
-      74: 2889726949989199201
-    second: metarig_slawomir.001|Idle.002
+      74: 7016833939661549602
+    second: metarig_slawomir|Picie_Idle
   - first:
-      74: 7515919414104123123
-    second: metarig_slawomir.001|Idle.003
+      74: -956955531229895065
+    second: metarig_slawomir|Przeciwnik_Kostki_losu_losu
   - first:
-      74: 4773891638157137997
-    second: metarig_slawomir.001|Idle.004
+      74: 6421760319710904688
+    second: metarig_slawomir|Przeciwnik_kostki_Rzucanie
   - first:
-      74: 3046790165720361076
-    second: metarig_slawomir.001|Idle_nowe
+      74: 6055279073281382134
+    second: metarig_slawomir|Przeciwnik_Rzucanie__kostki_Idle
   - first:
-      74: 407928675666647370
-    second: metarig_slawomir.001|Jump
+      74: -4222103349957260166
+    second: metarig_slawomir|Run
   - first:
-      74: 720969180646943437
-    second: metarig_slawomir.001|male.002Action
+      74: 2989703158652792236
+    second: metarig_slawomir|Stanie
   - first:
-      74: 4729186825832614005
-    second: metarig_slawomir.001|male.002Action.001
-  - first:
-      74: 177056960098589436
-    second: metarig_slawomir.001|male.002Action.002
-  - first:
-      74: -6596466468421452134
-    second: metarig_slawomir.001|male.002Action.003
-  - first:
-      74: -5094298119746968045
-    second: metarig_slawomir.001|male.002Action.004
-  - first:
-      74: 807323386420525019
-    second: metarig_slawomir.001|metarig_fryderykAction
-  - first:
-      74: 4606460972581375625
-    second: metarig_slawomir.001|metarig_januszAction
-  - first:
-      74: -3940429738522294141
-    second: metarig_slawomir.001|metarig_maleAction.002
-  - first:
-      74: -698200146396596172
-    second: metarig_slawomir.001|metarig_slawomirAction
-  - first:
-      74: 7999080368217479127
-    second: metarig_slawomir.001|Plane.001Action
-  - first:
-      74: 1006659961764998456
-    second: metarig_slawomir.001|Plane.002Action
-  - first:
-      74: -2380771059409303896
-    second: metarig_slawomir.001|PlaneAction
-  - first:
-      74: 8909791396735503295
-    second: metarig_slawomir.001|PlaneAction.002
-  - first:
-      74: 4245011087552577981
-    second: metarig_slawomir.001|rigAction
-  - first:
-      74: 1677451346082137887
-    second: metarig_slawomir.001|Run
-  - first:
-      74: -7824950208798787939
-    second: metarig_slawomir.001|Walk
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Slawomir
-    second: {fileID: 2100000, guid: db7e80ec342b1144288350f9c0d32d29, type: 2}
+      74: 5259394325251206222
+    second: metarig_slawomir|Walk
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -116,181 +69,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: metarig_slawomir.001|Idle_nowe
-      takeName: metarig_slawomir.001|Idle_nowe
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 119
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_slawomir.001|Jump
-      takeName: metarig_slawomir.001|Jump
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 29
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_slawomir.001|metarig_fryderykAction
-      takeName: metarig_slawomir.001|metarig_fryderykAction
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 141
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_slawomir.001|metarig_slawomirAction
-      takeName: metarig_slawomir.001|metarig_slawomirAction
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 507
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_slawomir.001|Run
-      takeName: metarig_slawomir.001|Run
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 59
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_slawomir.001|Walk
-      takeName: metarig_slawomir.001|Walk
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 24
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []

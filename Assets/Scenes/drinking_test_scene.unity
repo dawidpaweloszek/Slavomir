@@ -781,7 +781,7 @@ MonoBehaviour:
   borders: {x: -160, y: 160}
   point: {fileID: 1407681446}
   pointSpeed: 100
-  numberOfSlots: 1
+  numberOfSlots: 3
   slots:
   - {fileID: 699417933}
   - {fileID: 1352243813}

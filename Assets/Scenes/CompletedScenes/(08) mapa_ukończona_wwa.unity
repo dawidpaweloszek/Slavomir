@@ -165,7 +165,7 @@ BoxCollider:
   m_GameObject: {fileID: 50994794}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -224,7 +224,7 @@ BoxCollider:
   m_GameObject: {fileID: 86383252}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -304,6 +304,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -357,7 +361,7 @@ BoxCollider:
   m_GameObject: {fileID: 166618583}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -640,6 +644,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -847,6 +855,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -1112,7 +1124,7 @@ BoxCollider:
   m_GameObject: {fileID: 546485725}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -1171,7 +1183,7 @@ BoxCollider:
   m_GameObject: {fileID: 568643758}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -1325,6 +1337,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -1378,7 +1394,7 @@ BoxCollider:
   m_GameObject: {fileID: 768680059}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -1458,6 +1474,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -1511,7 +1531,7 @@ BoxCollider:
   m_GameObject: {fileID: 853740215}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -1644,7 +1664,7 @@ BoxCollider:
   m_GameObject: {fileID: 1110249106}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -1703,7 +1723,7 @@ BoxCollider:
   m_GameObject: {fileID: 1113065123}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -1762,7 +1782,7 @@ BoxCollider:
   m_GameObject: {fileID: 1126000332}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -2097,6 +2117,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -2163,7 +2187,7 @@ BoxCollider:
   m_GameObject: {fileID: 1291158992}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -2209,7 +2233,7 @@ BoxCollider:
   m_GameObject: {fileID: 1294380303}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -2289,6 +2313,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -2342,7 +2370,7 @@ BoxCollider:
   m_GameObject: {fileID: 1452233506}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -2422,6 +2450,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -2496,6 +2528,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -2549,7 +2585,7 @@ BoxCollider:
   m_GameObject: {fileID: 1484344585}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -2629,6 +2665,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -2682,7 +2722,7 @@ BoxCollider:
   m_GameObject: {fileID: 1540441969}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -2762,6 +2802,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -2836,6 +2880,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -2889,7 +2937,7 @@ BoxCollider:
   m_GameObject: {fileID: 1579664283}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -3050,7 +3098,7 @@ BoxCollider:
   m_GameObject: {fileID: 1609742606}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -3209,6 +3257,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -3283,6 +3335,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -3357,6 +3413,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -3410,7 +3470,7 @@ BoxCollider:
   m_GameObject: {fileID: 1742111962}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -3587,6 +3647,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -3676,7 +3740,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865732044}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3.26, y: 2.94, z: -3.88}
+  m_LocalPosition: {x: -3.22, y: 2.94, z: -0.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3767,6 +3831,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -3841,6 +3909,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski
@@ -3894,7 +3966,7 @@ BoxCollider:
   m_GameObject: {fileID: 2066674161}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.23450089, y: 0.22182736, z: 0.22041917}
   m_Center: {x: 0.003168583, y: 0.13528903, z: 0.0052808523}
@@ -3974,6 +4046,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8ea56505ff30c46823da5dab7f1695, type: 2}
     - target: {fileID: 919132149155446097, guid: c3de8b48fcc717641ac537c292e8e609, type: 3}
       propertyPath: m_Name
       value: zajazd_gorski

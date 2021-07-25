@@ -18,6 +18,8 @@ public class FigthingEntity : MonoBehaviour
     public bool isEnemyDefending;
     public bool isPlayerDefending;
 
+    public GamesEnds endScreen;
+
     // Update is called once per frame
     void Update()
     {
@@ -116,7 +118,8 @@ public class FigthingEntity : MonoBehaviour
             GameObject.Find("Enemy").GetComponent<FigthingEntity>().health--;
             if (GameObject.Find("Enemy").GetComponent<FigthingEntity>().health == 0)
             {
-                Debug.Log("Gracz wygrywa!");
+                endScreen.gameObject.SetActive(true);
+                endScreen.verdict = true;
             }
         }
         else
@@ -124,7 +127,8 @@ public class FigthingEntity : MonoBehaviour
             GameObject.Find("Player").GetComponent<FigthingEntity>().health--;
             if (GameObject.Find("Player").GetComponent<FigthingEntity>().health == 0)
             {
-                Debug.Log("Przeciwnik wygrywa!");
+                endScreen.gameObject.SetActive(true);
+                endScreen.verdict = false;
             }
         }
     }

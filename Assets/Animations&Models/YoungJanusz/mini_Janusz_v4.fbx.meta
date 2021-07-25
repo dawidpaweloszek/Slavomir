@@ -4,121 +4,150 @@ ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: 1921780331681506468
-    second: metarig_janusz.001|Idle_nowe
+      74: -5163527933876811347
+    second: metarig_slawomir_konik.003|Cylinder.002Action
   - first:
-      74: 6431048534495353903
-    second: metarig_janusz.001|Jump
+      74: 4224421219046113732
+    second: metarig_slawomir_konik.003|Idle_nowe
   - first:
-      74: -878352810481254171
-    second: metarig_janusz.001|Klaskanie
+      74: 3159028174954568854
+    second: metarig_slawomir_konik.003|Jump
   - first:
-      74: 4976961366045715156
-    second: metarig_janusz.001|Mowa_01
+      74: -3181078156660972090
+    second: metarig_slawomir_konik.003|Klaskanie
   - first:
-      74: -452198043970038876
-    second: metarig_janusz.001|Mowa_02
+      74: -1211416511994133069
+    second: metarig_slawomir_konik.003|Konik_atak
   - first:
-      74: 5802287821372587212
-    second: metarig_janusz.001|Mowa_03
+      74: -3505856954473177163
+    second: metarig_slawomir_konik.003|Konik_jazda
   - first:
-      74: -1389941390482599334
-    second: metarig_janusz.001|Ocieranie_Dloni
+      74: -5360595746055520062
+    second: metarig_slawomir_konik.003|Konik_Skok
   - first:
-      74: 2236474273723531253
-    second: metarig_janusz.001|Picie_Chwianie_sie_do_przodu
+      74: 1640977049970300693
+    second: metarig_slawomir_konik.003|Mowa_01
   - first:
-      74: 8502799959380477165
-    second: metarig_janusz.001|Picie_Chwianie_sie_do_spadanie
+      74: -3377326434856018627
+    second: metarig_slawomir_konik.003|Mowa_02
   - first:
-      74: 8947845585858831977
-    second: metarig_janusz.001|Picie_Chwianie_sie_do_tylu
+      74: 67593996583311155
+    second: metarig_slawomir_konik.003|Mowa_03
   - first:
-      74: -8539476175301721349
-    second: metarig_janusz.001|Picie_Chwianie_sie_lewo
+      74: -7504876913062443501
+    second: metarig_slawomir_konik.003|Picie_Chwianie_sie_do_przodu
   - first:
-      74: -6481536502302190470
-    second: metarig_janusz.001|Picie_Chwianie_sie_w_miejscu
+      74: 616742592142307017
+    second: metarig_slawomir_konik.003|Picie_Chwianie_sie_do_spadanie
   - first:
-      74: 7950477388868921125
-    second: metarig_janusz.001|Picie_Idle
+      74: 1406342636624497140
+    second: metarig_slawomir_konik.003|Picie_Chwianie_sie_do_tylu
   - first:
-      74: -3605758979971244203
-    second: metarig_janusz.001|Picie_stanie
+      74: 4561816769673942205
+    second: metarig_slawomir_konik.003|Picie_Chwianie_sie_lewo
   - first:
-      74: 7500940518052680622
-    second: metarig_janusz.001|Przeciwnik_Kostki_Idle_kostki
+      74: -2429504520040485371
+    second: metarig_slawomir_konik.003|Picie_Chwianie_sie_w_miejscu
   - first:
-      74: 2582907010917224752
-    second: metarig_janusz.001|Przeciwnik_Kostki_Radosc
+      74: -231367915766192265
+    second: metarig_slawomir_konik.003|Picie_Idle
   - first:
-      74: 2718864949051490321
-    second: metarig_janusz.001|Przeciwnik_Kostki_Rzucanie
+      74: -419241571728564139
+    second: metarig_slawomir_konik.003|Picie_stanie
   - first:
-      74: 1242643807822741608
-    second: metarig_janusz.001|Przeciwnik_Kostki_Zalamanie
+      74: -4349112902243069938
+    second: metarig_slawomir_konik.003|Przeciwnik_Kostki_Idle_kostki
   - first:
-      74: 9081693835047157727
-    second: metarig_janusz.001|Run
+      74: 272822250138013038
+    second: metarig_slawomir_konik.003|Przeciwnik_Kostki_Radosc
   - first:
-      74: -6512513209563154616
-    second: metarig_janusz.001|Slawomir_z_kieliszkiem.010Action
+      74: 203010106901416674
+    second: metarig_slawomir_konik.003|Przeciwnik_Kostki_Rzucanie
   - first:
-      74: -8554574329385580537
-    second: metarig_janusz.001|Slawomir_z_kieliszkiem.011Action
+      74: -1719243126791001958
+    second: metarig_slawomir_konik.003|Przeciwnik_Kostki_Zalamanie
   - first:
-      74: -4973860586802329195
-    second: metarig_janusz.001|Slawomir_z_kieliszkiem.012Action
+      74: 4889832070575879370
+    second: metarig_slawomir_konik.003|Run
   - first:
-      74: 6283590349366331950
-    second: metarig_janusz.001|Slawomir_z_kieliszkiem.013Action
+      74: 551742335098040598
+    second: metarig_slawomir_konik.003|slawomir.002Action
   - first:
-      74: 3397137511777306220
-    second: metarig_janusz.001|Slawomir_z_kieliszkiem.014Action
+      74: -1518086112956902184
+    second: metarig_slawomir_konik.003|Slawomir_z_kieliszkiem.010Action
   - first:
-      74: -2840378387803386614
-    second: metarig_janusz.001|Stanie
+      74: 4656737459588977092
+    second: metarig_slawomir_konik.003|Slawomir_z_kieliszkiem.011Action
   - first:
-      74: -4568914408745503215
-    second: metarig_janusz.001|szabla.002Action
+      74: 100869869857145647
+    second: metarig_slawomir_konik.003|Slawomir_z_kieliszkiem.012Action
   - first:
-      74: 4044137703155516398
-    second: metarig_janusz.001|szabla.011Action
+      74: -8969880474902543700
+    second: metarig_slawomir_konik.003|Slawomir_z_kieliszkiem.013Action
   - first:
-      74: -6948723229797240497
-    second: metarig_janusz.001|szabla.012Action
+      74: -1216612237195972310
+    second: metarig_slawomir_konik.003|Slawomir_z_kieliszkiem.014Action
   - first:
-      74: -7239874126780563439
-    second: metarig_janusz.001|szabla.013Action
+      74: 6678266745255179507
+    second: metarig_slawomir_konik.003|Stanie
   - first:
-      74: 7282128665831500654
-    second: metarig_janusz.001|szabla.014Action
+      74: -4964318747336323323
+    second: metarig_slawomir_konik.003|szabla.002Action
   - first:
-      74: -4501463879332870855
-    second: metarig_janusz.001|T_Pose
+      74: 3047098127817055856
+    second: metarig_slawomir_konik.003|szabla.011Action
   - first:
-      74: 4648027406629306581
-    second: metarig_janusz.001|T_Pose.001
+      74: -7781113915415673601
+    second: metarig_slawomir_konik.003|szabla.012Action
   - first:
-      74: 5835143850604185143
-    second: metarig_janusz.001|T_Pose.002
+      74: 1311239364892118857
+    second: metarig_slawomir_konik.003|szabla.013Action
   - first:
-      74: -4349571154574274033
-    second: metarig_janusz.001|Walk
+      74: -6505218968354601153
+    second: metarig_slawomir_konik.003|szabla.014Action
   - first:
-      74: 83775323354189176
-    second: metarig_janusz.001|Wiwatowanie
-  externalObjects:
+      74: 7434468358269138513
+    second: metarig_slawomir_konik.003|Szabla_atak
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Kij
-    second: {fileID: 2100000, guid: 7e9b663b60f3bbb4db325b8a7982859b, type: 2}
+      74: 3736414663395673705
+    second: metarig_slawomir_konik.003|Szabla_atak_w_miejsu
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: janusz
-    second: {fileID: 2100000, guid: f98a135bea1282441b8ed8e21ad9c951, type: 2}
+      74: 2595704948244922818
+    second: metarig_slawomir_konik.003|Szabla_chodzenie_lewo
+  - first:
+      74: -648696703658382933
+    second: metarig_slawomir_konik.003|Szabla_chodzenie_prawo
+  - first:
+      74: 5339315385665188748
+    second: metarig_slawomir_konik.003|Szabla_Idle
+  - first:
+      74: -3307579811833353388
+    second: metarig_slawomir_konik.003|Szabla_Idle.001
+  - first:
+      74: -650351706420440293
+    second: metarig_slawomir_konik.003|Szabla_Idle.002
+  - first:
+      74: -3972622692183209850
+    second: metarig_slawomir_konik.003|Szabla_Idle.003
+  - first:
+      74: 3557671961504741713
+    second: metarig_slawomir_konik.003|Szabla_Idle.004
+  - first:
+      74: -3961859083449118483
+    second: metarig_slawomir_konik.003|Szabla_obrona
+  - first:
+      74: -1751793353319164476
+    second: metarig_slawomir_konik.003|Szabla_obrona_w_miejscu
+  - first:
+      74: -6062721615847637397
+    second: metarig_slawomir_konik.003|T_Pose
+  - first:
+      74: 4368283172916804650
+    second: metarig_slawomir_konik.003|Walk
+  - first:
+      74: 1016454061805652306
+    second: metarig_slawomir_konik.003|Wiwatowanie
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -145,877 +174,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: metarig_janusz.001|Idle_nowe
-      takeName: metarig_janusz.001|Idle_nowe
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 119
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Jump
-      takeName: metarig_janusz.001|Jump
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 29
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Klaskanie
-      takeName: metarig_janusz.001|Klaskanie
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 20
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Mowa_01
-      takeName: metarig_janusz.001|Mowa_01
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 109
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Mowa_02
-      takeName: metarig_janusz.001|Mowa_02
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 95
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Mowa_03
-      takeName: metarig_janusz.001|Mowa_03
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 95
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Ocieranie_Dloni
-      takeName: metarig_janusz.001|Ocieranie_Dloni
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 83
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Picie_Chwianie_sie_do_przodu
-      takeName: metarig_janusz.001|Picie_Chwianie_sie_do_przodu
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 135
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Picie_Chwianie_sie_do_spadanie
-      takeName: metarig_janusz.001|Picie_Chwianie_sie_do_spadanie
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 65
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Picie_Chwianie_sie_do_tylu
-      takeName: metarig_janusz.001|Picie_Chwianie_sie_do_tylu
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 135
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Picie_Chwianie_sie_lewo
-      takeName: metarig_janusz.001|Picie_Chwianie_sie_lewo
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 115
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Picie_Chwianie_sie_w_miejscu
-      takeName: metarig_janusz.001|Picie_Chwianie_sie_w_miejscu
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 115
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Picie_Idle
-      takeName: metarig_janusz.001|Picie_Idle
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 113
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Picie_stanie
-      takeName: metarig_janusz.001|Picie_stanie
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Przeciwnik_Kostki_Idle_kostki
-      takeName: metarig_janusz.001|Przeciwnik_Kostki_Idle_kostki
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 239
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Przeciwnik_Kostki_Radosc
-      takeName: metarig_janusz.001|Przeciwnik_Kostki_Radosc
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 44
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Przeciwnik_Kostki_Rzucanie
-      takeName: metarig_janusz.001|Przeciwnik_Kostki_Rzucanie
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 79
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Przeciwnik_Kostki_Zalamanie
-      takeName: metarig_janusz.001|Przeciwnik_Kostki_Zalamanie
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 59
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Run
-      takeName: metarig_janusz.001|Run
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 59
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Slawomir_z_kieliszkiem.010Action
-      takeName: metarig_janusz.001|Slawomir_z_kieliszkiem.010Action
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Slawomir_z_kieliszkiem.011Action
-      takeName: metarig_janusz.001|Slawomir_z_kieliszkiem.011Action
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Slawomir_z_kieliszkiem.012Action
-      takeName: metarig_janusz.001|Slawomir_z_kieliszkiem.012Action
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Slawomir_z_kieliszkiem.013Action
-      takeName: metarig_janusz.001|Slawomir_z_kieliszkiem.013Action
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Slawomir_z_kieliszkiem.014Action
-      takeName: metarig_janusz.001|Slawomir_z_kieliszkiem.014Action
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Stanie
-      takeName: metarig_janusz.001|Stanie
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|T_Pose
-      takeName: metarig_janusz.001|T_Pose
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|T_Pose.001
-      takeName: metarig_janusz.001|T_Pose.001
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|T_Pose.002
-      takeName: metarig_janusz.001|T_Pose.002
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Walk
-      takeName: metarig_janusz.001|Walk
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 24
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: metarig_janusz.001|Wiwatowanie
-      takeName: metarig_janusz.001|Wiwatowanie
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 39
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []

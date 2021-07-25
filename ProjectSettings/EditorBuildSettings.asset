@@ -41,4 +41,22 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/CompletedScenes/(11) grodno_po_wy\u015Bcigu.unity"
     guid: 18900a320d285fe4aa15f03e9254c9ff
+  - enabled: 1
+    path: "Assets/Scenes/CompletedScenes/(12) mapa_uko\u0144czone_grodno.unity"
+    guid: ac7768232f1ddb84397d45776b7a9ede
+  - enabled: 1
+    path: "Assets/Scenes/CompletedScenes/(13) s\u0142uck_przed_pojedynkiem.unity"
+    guid: 5bce2421e519b034484142765e2b3097
+  - enabled: 1
+    path: Assets/Scenes/CompletedScenes/(14) strzelnica_z_wszeborem.unity
+    guid: 3c2479171a648054c991866688cf5b6c
+  - enabled: 1
+    path: "Assets/Scenes/CompletedScenes/(15) s\u0142uck_po_pojedynku.unity"
+    guid: 50c328b5e5511624ba67951d451a1891
+  - enabled: 1
+    path: "Assets/Scenes/CompletedScenes/(16) mapa_uko\u0144czone_s\u0142uck.unity"
+    guid: 90827cca713ef3c45ad731180657caec
+  - enabled: 1
+    path: "Assets/Scenes/CompletedScenes/(17) pozna\u0144_przed_ko\u015B\u0107mi.unity"
+    guid: 4336caa2c257d0c45a3d4decfab4b851
   m_configObjects: {}

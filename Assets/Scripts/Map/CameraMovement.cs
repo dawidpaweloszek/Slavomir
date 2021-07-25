@@ -37,6 +37,8 @@ public class CameraMovement : MonoBehaviour
 
     void Update()
     {
+        Cursor.lockState = CursorLockMode.None;
+
         innNameText.gameObject.SetActive(true);
 
         if (!isCameraZoomed)

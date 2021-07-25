@@ -23,6 +23,9 @@ public class StartDialogue : MonoBehaviour
             SceneManager.LoadScene(nameOfTheNextScene, LoadSceneMode.Single);
         }
 
+        if (!gameObject.GetComponent<ThirdPersonMovement>().isPlayerInDialogue && animatorFromHit != null)
+            animatorFromHit.SetBool("IsSpeaking", false);
+
         spaceImage.gameObject.SetActive(false);
 
         if (!gameObject.GetComponent<ThirdPersonMovement>().isPlayerInDialogue)
@@ -41,11 +44,16 @@ public class StartDialogue : MonoBehaviour
                     {
                         animatorFromHit = dialogable.animator;
                         BeginDialogue();
+
+                        animatorFromHit.SetBool("IsSpeaking", true);
+
                         spaceImage.gameObject.SetActive(false);
                     }
                 }
             }
         }
+
+
     }
 
     private void BeginDialogue()

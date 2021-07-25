@@ -95,7 +95,7 @@ MonoBehaviour:
   nameText: {fileID: 1101454227}
   lines: []
   names: []
-  textSpeed: 0.1
+  textSpeed: 0.01
   index: 0
   animator: {fileID: 0}
   camera: {fileID: 1855431466898227994}
@@ -266,8 +266,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.0003843349, y: -0.9976504, z: 0.068279505, w: 0.0056156334}
-  m_LocalPosition: {x: -0.2886628, y: 1.0000001, z: 2.4430046}
+  m_LocalRotation: {x: -0.002428011, y: -0.99703526, z: 0.06823741, w: -0.03547635}
+  m_LocalPosition: {x: -0.48873818, y: 1, z: 2.4109612}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1855431466633461832}
@@ -904,7 +904,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855431466079928189}
-  m_LocalRotation: {x: 0.00038433593, y: -0.9976504, z: 0.06827951, w: 0.0056156353}
+  m_LocalRotation: {x: -0.0024280117, y: -0.99703526, z: 0.0682374, w: -0.035476338}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1553,7 +1553,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855431467680865351}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2886628, y: 1.0000001, z: 2.4430046}
+  m_LocalPosition: {x: -0.48873818, y: 1, z: 2.4109612}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1855431467755276054}
@@ -1717,7 +1717,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855431467755276048}
-  m_LocalRotation: {x: 0.000486418, y: -0.99624336, z: 0.086414956, w: 0.0056077177}
+  m_LocalRotation: {x: -0.0030729058, y: -0.9956291, z: 0.08636167, w: -0.0354263}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1917,7 +1917,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855431468208721348}
-  m_LocalRotation: {x: 0.00028239703, y: -0.9987249, z: 0.05016944, w: 0.0056216884}
+  m_LocalRotation: {x: -0.0017840192, y: -0.99810904, z: 0.0501385, w: -0.03551454}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

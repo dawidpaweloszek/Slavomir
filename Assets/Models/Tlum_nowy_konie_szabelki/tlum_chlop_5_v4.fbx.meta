@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: b6786867c3f42684c8064facfdd2bdcf
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -926704805429835882
+    second: metarig_slawomir_konik.008|Idle_nowe
+  - first:
+      74: -9098762454290993929
+    second: metarig_slawomir_konik.008|Jump
+  - first:
+      74: 4210993269536346021
+    second: metarig_slawomir_konik.008|Klaskanie
+  - first:
+      74: 9161604544388012032
+    second: metarig_slawomir_konik.008|Konik_atak
+  - first:
+      74: 3031188398327950289
+    second: metarig_slawomir_konik.008|Konik_jazda
+  - first:
+      74: -8165060912479977897
+    second: metarig_slawomir_konik.008|Konik_Skok
+  - first:
+      74: -2100318178380392426
+    second: metarig_slawomir_konik.008|Mowa_01
+  - first:
+      74: 3665785153100405573
+    second: metarig_slawomir_konik.008|Mowa_02
+  - first:
+      74: -3413295027328089469
+    second: metarig_slawomir_konik.008|Mowa_03
+  - first:
+      74: -2173625341690336358
+    second: metarig_slawomir_konik.008|Mowa_04
+  - first:
+      74: -2826383884574341606
+    second: metarig_slawomir_konik.008|Ocieranie_Dloni
+  - first:
+      74: -4464473801695573074
+    second: metarig_slawomir_konik.008|Picie_Chwianie_sie_do_przodu
+  - first:
+      74: -557286675416856490
+    second: metarig_slawomir_konik.008|Picie_Chwianie_sie_do_spadanie
+  - first:
+      74: 3720515445579360710
+    second: metarig_slawomir_konik.008|Picie_Chwianie_sie_do_tylu
+  - first:
+      74: 4649412169656792015
+    second: metarig_slawomir_konik.008|Picie_Chwianie_sie_lewo
+  - first:
+      74: -6787746569268932174
+    second: metarig_slawomir_konik.008|Picie_Chwianie_sie_w_miejscu
+  - first:
+      74: -4873701188176529045
+    second: metarig_slawomir_konik.008|Picie_Idle
+  - first:
+      74: -4342489269828324027
+    second: metarig_slawomir_konik.008|Picie_stanie
+  - first:
+      74: 2295473650293743484
+    second: metarig_slawomir_konik.008|Przeciwnik_Kostki_Idle_kostki
+  - first:
+      74: -4789046028290630404
+    second: metarig_slawomir_konik.008|Przeciwnik_Kostki_Radosc
+  - first:
+      74: 4118704698635583861
+    second: metarig_slawomir_konik.008|Przeciwnik_Kostki_Rzucanie
+  - first:
+      74: -742188810430218575
+    second: metarig_slawomir_konik.008|Przeciwnik_Kostki_Zalamanie
+  - first:
+      74: 2686320931754673891
+    second: metarig_slawomir_konik.008|Run
+  - first:
+      74: 2407791487097187387
+    second: metarig_slawomir_konik.008|Stanie
+  - first:
+      74: 6516791914210986675
+    second: metarig_slawomir_konik.008|Szabla_atak
+  - first:
+      74: -5674488226341548274
+    second: metarig_slawomir_konik.008|Szabla_atak_w_miejsu
+  - first:
+      74: 8671570656246776533
+    second: metarig_slawomir_konik.008|Szabla_chodzenie_lewo
+  - first:
+      74: -9123402964393723945
+    second: metarig_slawomir_konik.008|Szabla_chodzenie_prawo
+  - first:
+      74: 206142214623273003
+    second: metarig_slawomir_konik.008|Szabla_Idle
+  - first:
+      74: 4832968993157879262
+    second: metarig_slawomir_konik.008|Szabla_obrona
+  - first:
+      74: 6583184912812185757
+    second: metarig_slawomir_konik.008|Szabla_obrona_w_miejscu
+  - first:
+      74: 9053568212114697744
+    second: metarig_slawomir_konik.008|T_Pose
+  - first:
+      74: 2795106080759222979
+    second: metarig_slawomir_konik.008|T_Pose.001
+  - first:
+      74: 6870091057571846025
+    second: metarig_slawomir_konik.008|Walk
+  - first:
+      74: 6080021273651448877
+    second: metarig_slawomir_konik.008|Wiwatowanie
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

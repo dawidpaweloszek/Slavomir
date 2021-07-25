@@ -64,5 +64,12 @@ public class Dice : MonoBehaviour
                 CollectPoint();
             }
         }
+
+        if (Vector3.Distance(transform.parent.position, transform.position) > 5)
+        {
+            transform.position = transform.parent.position;
+            transform.rotation = Quaternion.identity;
+            Toss();
+        }
     }
 }

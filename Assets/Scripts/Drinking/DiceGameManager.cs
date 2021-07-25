@@ -11,6 +11,7 @@ public class DiceGameManager : MonoBehaviour
     public float readValuesTime;
     public float cReadValuesTime = 4;
     public bool doPlayerWon = false;
+    public GameObject endGameScreen;
 
     [Header("Player")]
     [SerializeField] private Toss player;
@@ -37,24 +38,41 @@ public class DiceGameManager : MonoBehaviour
         PlayGame();
 
         // Win before third round
-        if (roundNumber == 2)
+        if (roundNumber > 1)
         {
             // Player won first two
             if (isPlayerWonRound[0] && isPlayerWonRound[1])
             {
+                endGameScreen.SetActive(true);
+                endGameScreen.GetComponent<GamesEnds>().verdict = "Gracz wygra³ dwie pierwsze rundy!";
                 doPlayerWon = true;
             }
 
             // Enemy won first two
             if (!isPlayerWonRound[0] && !isPlayerWonRound[1])
             {
+                endGameScreen.SetActive(true);
+                endGameScreen.GetComponent<GamesEnds>().verdict = "Przeciwnik wygra³ dwie pierwsze rundy!";
                 doPlayerWon = false;
             }
         }
         // Win after third round
-        if (roundNumber == 4)
+        if (roundNumber > 2)
         {
-
+            if ((isPlayerWonRound[0] && !isPlayerWonRound[1] && isPlayerWonRound[2]) ||      // 1 0 1
+                (!isPlayerWonRound[0] && isPlayerWonRound[1] && isPlayerWonRound[2]))        // 0 1 1
+            {
+                endGameScreen.SetActive(true);
+                endGameScreen.GetComponent<GamesEnds>().verdict = "Gracz wygra³!";
+                doPlayerWon = true;
+            }
+            if ((!isPlayerWonRound[0] && isPlayerWonRound[1] && !isPlayerWonRound[2]) ||      // 0 1 0
+                (isPlayerWonRound[0] && !isPlayerWonRound[1] && !isPlayerWonRound[2]))        // 1 0 0
+            {
+                endGameScreen.SetActive(true);
+                endGameScreen.GetComponent<GamesEnds>().verdict = "Przeciwnik wygra³!";
+                doPlayerWon = false;
+            }
         }
     }
 

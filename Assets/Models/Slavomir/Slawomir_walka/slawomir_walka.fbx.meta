@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: d6dd4cd1f86f562489c51f8440d438dc
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 397106804785243600
+    second: metarig_slawomir_konik.001|Idle_nowe
+  - first:
+      74: 7573337946940325007
+    second: metarig_slawomir_konik.001|Jump
+  - first:
+      74: 6475341213436313205
+    second: metarig_slawomir_konik.001|Konik_jazda
+  - first:
+      74: 4741510087058456248
+    second: metarig_slawomir_konik.001|Konik_Skok
+  - first:
+      74: -1273071090334463584
+    second: metarig_slawomir_konik.001|Konik_Skok.001
+  - first:
+      74: 5864053648564286112
+    second: metarig_slawomir_konik.001|Konik_Skok.002
+  - first:
+      74: 7507859491399743842
+    second: metarig_slawomir_konik.001|Picie_Chwianie_sie_do_przodu
+  - first:
+      74: 1060916389559937648
+    second: metarig_slawomir_konik.001|Picie_Chwianie_sie_lewo
+  - first:
+      74: -8878897831570346067
+    second: metarig_slawomir_konik.001|Picie_Chwianie_sie_w_miejscu
+  - first:
+      74: -7763882777636253277
+    second: metarig_slawomir_konik.001|Picie_Idle
+  - first:
+      74: 8417579386557249865
+    second: metarig_slawomir_konik.001|Przeciwnik_Kostki_Radosc
+  - first:
+      74: -8147676405544782819
+    second: metarig_slawomir_konik.001|Przeciwnik_Kostki_Zalamanie
+  - first:
+      74: 1213714081376183637
+    second: metarig_slawomir_konik.001|Run
+  - first:
+      74: 8437265441380535404
+    second: metarig_slawomir_konik.001|Stanie
+  - first:
+      74: 4470229274897832994
+    second: metarig_slawomir_konik.001|Szabla_atak
+  - first:
+      74: 2074274676862951283
+    second: metarig_slawomir_konik.001|Szabla_atak_w_miejsu
+  - first:
+      74: -8350814612171246076
+    second: metarig_slawomir_konik.001|Szabla_chodzenie_lewo
+  - first:
+      74: -9163871343000850232
+    second: metarig_slawomir_konik.001|Szabla_chodzenie_prawo
+  - first:
+      74: -4839299829339990693
+    second: metarig_slawomir_konik.001|Szabla_Idle
+  - first:
+      74: 7660371644069214410
+    second: metarig_slawomir_konik.001|Szabla_obrona
+  - first:
+      74: -2668395643565599883
+    second: metarig_slawomir_konik.001|Szabla_obrona_w_miejscu
+  - first:
+      74: -6810063253271097193
+    second: metarig_slawomir_konik.001|Walk
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

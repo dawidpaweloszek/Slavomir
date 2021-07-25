@@ -8,7 +8,7 @@ public class DrinkBar : MonoBehaviour
     public static DrinkBar instance;
 
     [SerializeField] private Slider slider;
-    [SerializeField] private float drinkLeft;
+    public float drinkLeft;
 
     private void Awake()
     {

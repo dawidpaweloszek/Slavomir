@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: 6722c58d049bd7642a18f979acd4d847
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 955677884922641355
+    second: metarig_janusz|CameraAction
+  - first:
+      74: 1500860774752165819
+    second: metarig_janusz|Idle_nowe
+  - first:
+      74: 2370663577143899297
+    second: metarig_janusz|Jump
+  - first:
+      74: 9207176609598826556
+    second: metarig_janusz|Klaskanie
+  - first:
+      74: 8940443655733467196
+    second: metarig_janusz|Mowa_01
+  - first:
+      74: 608009118679237070
+    second: metarig_janusz|Mowa_02
+  - first:
+      74: -2754670747070938233
+    second: metarig_janusz|Mowa_03
+  - first:
+      74: 4957396485995484834
+    second: metarig_janusz|Mowa_04
+  - first:
+      74: 5532916195801461232
+    second: metarig_janusz|Ocieranie_Dloni
+  - first:
+      74: 3969660986198709311
+    second: metarig_janusz|Picie_Chwianie_sie_do_przodu
+  - first:
+      74: 5627669592773150802
+    second: metarig_janusz|Picie_Chwianie_sie_do_spadanie
+  - first:
+      74: 3943292798367295464
+    second: metarig_janusz|Picie_Chwianie_sie_do_tylu
+  - first:
+      74: -735414716040151357
+    second: metarig_janusz|Picie_Chwianie_sie_lewo
+  - first:
+      74: -4034605138483253468
+    second: metarig_janusz|Picie_Chwianie_sie_w_miejscu
+  - first:
+      74: -6647557982024739452
+    second: metarig_janusz|Picie_Idle
+  - first:
+      74: 5912927001374157401
+    second: metarig_janusz|Picie_stanie
+  - first:
+      74: -3163541555824942716
+    second: metarig_janusz|Przeciwnik_Kostki_Idle_kostki
+  - first:
+      74: -7701426639872232760
+    second: metarig_janusz|Przeciwnik_Kostki_Radosc
+  - first:
+      74: 6745369822941059899
+    second: metarig_janusz|Przeciwnik_Kostki_Rzucanie
+  - first:
+      74: -1618983237223139657
+    second: metarig_janusz|Przeciwnik_Kostki_Zalamanie
+  - first:
+      74: 8592880305221752389
+    second: metarig_janusz|Run
+  - first:
+      74: -2158945487921514136
+    second: metarig_janusz|slawomir_konik.002Action
+  - first:
+      74: 4281697938611117279
+    second: metarig_janusz|Slawomir_z_kieliszkiem.010Action
+  - first:
+      74: 8396204030267776879
+    second: metarig_janusz|Slawomir_z_kieliszkiem.011Action
+  - first:
+      74: 6953940969584074010
+    second: metarig_janusz|Slawomir_z_kieliszkiem.012Action
+  - first:
+      74: -2241033899266825904
+    second: metarig_janusz|Slawomir_z_kieliszkiem.013Action
+  - first:
+      74: -1219541474718499128
+    second: metarig_janusz|Slawomir_z_kieliszkiem.014Action
+  - first:
+      74: -7529144944126761751
+    second: metarig_janusz|Stanie
+  - first:
+      74: -3831758765526270649
+    second: metarig_janusz|szabla.002Action
+  - first:
+      74: 2571248997534127165
+    second: metarig_janusz|szabla.011Action
+  - first:
+      74: 8940265086943008319
+    second: metarig_janusz|szabla.012Action
+  - first:
+      74: 6232103891673187674
+    second: metarig_janusz|szabla.013Action
+  - first:
+      74: -8249206877660097224
+    second: metarig_janusz|szabla.014Action
+  - first:
+      74: -3059399019831239395
+    second: metarig_janusz|T_Pose
+  - first:
+      74: 7457639236845739405
+    second: metarig_janusz|tlum_baba_1Action
+  - first:
+      74: 8410623833583957686
+    second: metarig_janusz|Walk
+  - first:
+      74: 5833208476544938545
+    second: metarig_janusz|Wiwatowanie
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

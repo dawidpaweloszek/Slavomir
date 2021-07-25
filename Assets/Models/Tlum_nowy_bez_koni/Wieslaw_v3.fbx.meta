@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 0b82cbba6126cc34c8abe559d4ab8d9e
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -4852448256224534238
+    second: metarig_Wieslaw|Idle_nowe
+  - first:
+      74: -3765562730654464946
+    second: metarig_Wieslaw|Jump
+  - first:
+      74: -4033325696515475565
+    second: metarig_Wieslaw|Klaskanie
+  - first:
+      74: 8036025730705655879
+    second: metarig_Wieslaw|Mowa_01
+  - first:
+      74: 7239409285061341677
+    second: metarig_Wieslaw|Mowa_02
+  - first:
+      74: 970741594558044546
+    second: metarig_Wieslaw|Mowa_03
+  - first:
+      74: 3101499449110204156
+    second: metarig_Wieslaw|Mowa_04
+  - first:
+      74: 3407615048829197202
+    second: metarig_Wieslaw|Ocieranie_Dloni
+  - first:
+      74: 2471542853739314452
+    second: metarig_Wieslaw|Picie_Chwianie_sie_do_przodu
+  - first:
+      74: 300017358972863642
+    second: metarig_Wieslaw|Picie_Chwianie_sie_do_spadanie
+  - first:
+      74: 2965639883624342479
+    second: metarig_Wieslaw|Picie_Chwianie_sie_do_tylu
+  - first:
+      74: 5029191527108685637
+    second: metarig_Wieslaw|Picie_Chwianie_sie_lewo
+  - first:
+      74: 5626434934972638372
+    second: metarig_Wieslaw|Picie_Chwianie_sie_w_miejscu
+  - first:
+      74: 8314987808043929050
+    second: metarig_Wieslaw|Picie_Idle
+  - first:
+      74: -5556007528869619988
+    second: metarig_Wieslaw|Picie_stanie
+  - first:
+      74: -8474444500648173745
+    second: metarig_Wieslaw|Przeciwnik_Kostki_Idle_kostki
+  - first:
+      74: 4840097453359136979
+    second: metarig_Wieslaw|Przeciwnik_Kostki_Radosc
+  - first:
+      74: -745129713270300589
+    second: metarig_Wieslaw|Przeciwnik_Kostki_Rzucanie
+  - first:
+      74: -8839616865902311453
+    second: metarig_Wieslaw|Przeciwnik_Kostki_Zalamanie
+  - first:
+      74: -4271879004867718347
+    second: metarig_Wieslaw|Run
+  - first:
+      74: -8541090998548874511
+    second: metarig_Wieslaw|Stanie
+  - first:
+      74: -641098971960316459
+    second: metarig_Wieslaw|T_Pose
+  - first:
+      74: 2058367779734473738
+    second: metarig_Wieslaw|Walk
+  - first:
+      74: 894458672097726515
+    second: metarig_Wieslaw|Wiwatowanie
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

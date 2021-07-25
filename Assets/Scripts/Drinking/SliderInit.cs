@@ -11,7 +11,8 @@ public class SliderInit : MonoBehaviour
     [SerializeField] private GameObject[] slots;
     [SerializeField] private DrinkBar drinkBar;
     [SerializeField] private GameObject spaceImage;
-    public Animator animator;
+    public Animator playerAnimator;
+    public Animator enemyAnimator;
 
     float direction = 1;
 
@@ -40,7 +41,7 @@ public class SliderInit : MonoBehaviour
 
         pointPosition.anchoredPosition += new Vector2(pointSpeed * Time.deltaTime * direction, 0f);
 
-        animator.SetBool("IsDrinking", false);
+        playerAnimator.SetBool("IsDrinking", false);
 
         // Check if player pressed space
         for (int i = 0; i < numberOfSlots; i++)
@@ -50,14 +51,20 @@ public class SliderInit : MonoBehaviour
             {
                 spaceImage.SetActive(true);
 
-                if (Input.GetKeyDown(KeyCode.Space) && !animator.GetBool("IsFalling"))
+                if (Input.GetKeyDown(KeyCode.Space) && !playerAnimator.GetBool("IsFalling"))
                 {
                     drinkBar.Drink(1);
-                    animator.SetBool("IsDrinking",true);
+                    playerAnimator.SetBool("IsDrinking",true);
                 }
             }
             else
                 spaceImage.SetActive(false);
+        }
+
+        if (drinkBar.drinkLeft <= 0)
+        {
+            enemyAnimator.SetBool("IsFalling", true);
+            playerAnimator.transform.parent.GetComponent<Lean>().Winner(true);
         }
     }
 }

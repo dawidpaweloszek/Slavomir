@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: f8d1d9189ee858447b7fdedf06e6df01
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1713165894136071465
+    second: tlum_chlop_5.001|Idle_nowe
+  - first:
+      74: -8327037359196652188
+    second: tlum_chlop_5.001|Jump
+  - first:
+      74: 1835278022462939877
+    second: tlum_chlop_5.001|Klaskanie
+  - first:
+      74: -8380469511938850850
+    second: tlum_chlop_5.001|Mowa_01
+  - first:
+      74: 540922867809533166
+    second: tlum_chlop_5.001|Mowa_02
+  - first:
+      74: -2183106281107893115
+    second: tlum_chlop_5.001|Mowa_03
+  - first:
+      74: -5294785397871103852
+    second: tlum_chlop_5.001|Mowa_04
+  - first:
+      74: -1420678332961394691
+    second: tlum_chlop_5.001|Ocieranie_Dloni
+  - first:
+      74: -882664225230932634
+    second: tlum_chlop_5.001|Picie_Chwianie_sie_do_przodu
+  - first:
+      74: -6093179988376601867
+    second: tlum_chlop_5.001|Picie_Chwianie_sie_do_spadanie
+  - first:
+      74: 8071131548568786707
+    second: tlum_chlop_5.001|Picie_Chwianie_sie_do_tylu
+  - first:
+      74: 3769057059722493492
+    second: tlum_chlop_5.001|Picie_Chwianie_sie_lewo
+  - first:
+      74: 5508915940739324683
+    second: tlum_chlop_5.001|Picie_Chwianie_sie_w_miejscu
+  - first:
+      74: 6212480103889258205
+    second: tlum_chlop_5.001|Picie_Idle
+  - first:
+      74: -7248573534628273062
+    second: tlum_chlop_5.001|Picie_stanie
+  - first:
+      74: 8308419187799185604
+    second: tlum_chlop_5.001|Przeciwnik_Kostki_Idle_kostki
+  - first:
+      74: -2312830366714507574
+    second: tlum_chlop_5.001|Przeciwnik_Kostki_Radosc
+  - first:
+      74: 6143729502552617222
+    second: tlum_chlop_5.001|Przeciwnik_Kostki_Rzucanie
+  - first:
+      74: -778739584176445171
+    second: tlum_chlop_5.001|Przeciwnik_Kostki_Zalamanie
+  - first:
+      74: -1627274577934342660
+    second: tlum_chlop_5.001|Run
+  - first:
+      74: -266847385193190396
+    second: tlum_chlop_5.001|Stanie
+  - first:
+      74: -2380012650319719562
+    second: tlum_chlop_5.001|T_Pose
+  - first:
+      74: -518408049937414459
+    second: tlum_chlop_5.001|Walk
+  - first:
+      74: 8272665999868005089
+    second: tlum_chlop_5.001|Wiwatowanie
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

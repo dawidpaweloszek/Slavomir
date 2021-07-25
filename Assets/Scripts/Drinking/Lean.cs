@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Lean : MonoBehaviour
 {
+    public GamesEnds endScreen;
     [SerializeField] private GameObject aKeyImage;
     [SerializeField] private GameObject dKeyImage;
     [SerializeField] private int directionOfLean;
@@ -17,6 +18,13 @@ public class Lean : MonoBehaviour
     //[SerializeField] private float cTimeOfLeaningAnimation;
     public Animator animator;
 
+    public bool isThisPlayer;
+
+    public bool doLost;
+    public float timeOfFallingAnimation = 2.7f;
+
+    public float timeBetweenDrinks = 3f;
+
     private void Start()
     {
         RandomizeTimeBetweenLeans();
@@ -29,57 +37,118 @@ public class Lean : MonoBehaviour
 
         if (cTimeBetweenLeans >= timeBetweenLeans)
         {
-            animator.SetBool("IsLeaningForward", false);
-            animator.SetBool("IsLeaningBack", false);
-
-            RandomizeDirectionOfLean();
-
-            cTimeForReaction += Time.deltaTime;
-
-            if (cTimeForReaction <= timeOfLeaningAnimation)
+            if (isThisPlayer)
             {
-                if (directionOfLean == -1)
+                animator.SetBool("IsLeaningForward", false);
+                animator.SetBool("IsLeaningBack", false);
+
+                RandomizeDirectionOfLean();
+
+                cTimeForReaction += Time.deltaTime;
+
+                if (cTimeForReaction <= timeOfLeaningAnimation)
                 {
-                    animator.SetBool("IsLeaningBack", true);
-
-                    dKeyImage.SetActive(true);
-
-                    if (Input.GetKey(KeyCode.D))
+                    if (directionOfLean == -1)
                     {
-                        cTimeForReaction = 0;
-                        RandomizeTimeBetweenLeans();
-                        dKeyImage.SetActive(false);
+                        animator.SetBool("IsLeaningBack", true);
+
+                        dKeyImage.SetActive(true);
+
+                        if (Input.GetKey(KeyCode.D))
+                        {
+                            cTimeForReaction = 0;
+                            RandomizeTimeBetweenLeans();
+                            dKeyImage.SetActive(false);
+                        }
+
+                        if (Input.GetKey(KeyCode.A))
+                        {
+                            animator.SetBool("IsFalling", true);
+                            doLost = true;
+                        }
                     }
-
-                    if (Input.GetKey(KeyCode.A))
+                    if (directionOfLean == 1)
                     {
-                        animator.SetBool("IsFalling", true);
+                        animator.SetBool("IsLeaningForward", true);
+
+                        aKeyImage.SetActive(true);
+
+                        if (Input.GetKey(KeyCode.A))
+                        {
+                            cTimeForReaction = 0;
+                            RandomizeTimeBetweenLeans();
+                            aKeyImage.SetActive(false);
+                        }
+
+                        if (Input.GetKey(KeyCode.D))
+                        {
+                            animator.SetBool("IsFalling", true);
+                            doLost = true;
+                        }
                     }
                 }
-                if (directionOfLean == 1)
+                else
                 {
-                    animator.SetBool("IsLeaningForward", true);
-
-                    aKeyImage.SetActive(true);
-
-                    if (Input.GetKey(KeyCode.A))
-                    {
-                        cTimeForReaction = 0;
-                        RandomizeTimeBetweenLeans();
-                        aKeyImage.SetActive(false);
-                    }
-
-                    if (Input.GetKey(KeyCode.D))
-                    {
-                        animator.SetBool("IsFalling", true);
-                    }
+                    animator.SetBool("IsFalling", true);
+                    doLost = true;
                 }
             }
             else
             {
-                animator.SetBool("IsFalling", true);
+                animator.SetBool("IsLeaningForward", false);
+                animator.SetBool("IsLeaningBack", false);
+                animator.SetBool("IsDrinking", false);
+
+                RandomizeDirectionOfLean();
+
+                cTimeForReaction += Time.deltaTime;
+
+                if (cTimeForReaction >= timeOfLeaningAnimation - 1.5f)
+                {
+                    if (directionOfLean == -1)
+                    {
+                        animator.SetBool("IsLeaningBack", true);
+                        cTimeForReaction = 0;
+                        RandomizeTimeBetweenLeans();
+                    }
+                    if (directionOfLean == 1)
+                    {
+                        animator.SetBool("IsLeaningForward", true);
+                        cTimeForReaction = 0;
+                        RandomizeTimeBetweenLeans();
+                    }
+                }
+                else
+                {
+                    if (timeBetweenDrinks <= 0)
+                    {
+                        animator.SetBool("IsDrinking", true);
+                        timeBetweenDrinks = Random.Range(2f, 4f);
+                    }
+
+                    timeBetweenDrinks -= Time.deltaTime;
+                }
             }
         }
+
+        if (doLost)
+        {
+            Winner(false);
+        }
+    }
+
+    public void Winner(bool value)
+    {
+        aKeyImage.SetActive(false);
+        dKeyImage.SetActive(false);
+
+        if (timeOfFallingAnimation <= 0f)
+        {
+            endScreen.gameObject.SetActive(true);
+            endScreen.verdict = value;
+        }
+
+        timeOfFallingAnimation -= Time.deltaTime;
     }
 
     private void RandomizeDirectionOfLean()

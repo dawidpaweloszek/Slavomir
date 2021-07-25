@@ -972,7 +972,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1332032692
@@ -1058,6 +1058,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextScene: (01) zajazd_zakopane
   authorsPanel: {fileID: 0}
+  library: {fileID: 11400000, guid: fc68b8f072487464b813bb453ebe2093, type: 2}
+  libraryCopy: {fileID: 0}
 --- !u!1 &1939414317
 GameObject:
   m_ObjectHideFlags: 0

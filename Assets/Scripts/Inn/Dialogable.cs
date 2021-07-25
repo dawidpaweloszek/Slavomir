@@ -16,7 +16,7 @@ public class Dialogable : MonoBehaviour
 
         for (int i = 0; i < dialogIndices.Length; i++)
         {
-            if (dialogIndices[i] == dialogues.dialogueIndex)
+            if (dialogIndices[i] == SaveAndLoadSystem.LoadData().dialogueIndex)
                 shaftOfLight.SetActive(true);
         }
     }

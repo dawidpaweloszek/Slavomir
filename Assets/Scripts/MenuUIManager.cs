@@ -8,6 +8,11 @@ public class MenuUIManager : MonoBehaviour
     public string nextScene;
     public GameObject authorsPanel;
 
+    private void Start()
+    {
+        SaveAndLoadSystem.SaveData(0, 0);
+    }
+
     public void LoadGame()
     {
         SceneManager.LoadScene(nextScene, LoadSceneMode.Single);

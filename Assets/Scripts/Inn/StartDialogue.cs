@@ -18,7 +18,7 @@ public class StartDialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!dialogueUI.activeInHierarchy && library.dialogueIndex == indexOfDialogueToNextScene)
+        if (!dialogueUI.activeInHierarchy && SaveAndLoadSystem.LoadData().dialogueIndex == indexOfDialogueToNextScene)
         {
             SceneManager.LoadScene(nameOfTheNextScene, LoadSceneMode.Single);
         }
@@ -41,7 +41,6 @@ public class StartDialogue : MonoBehaviour
                     {
                         animatorFromHit = dialogable.animator;
                         BeginDialogue();
-                        library.dialogueIndex++;
                         spaceImage.gameObject.SetActive(false);
                     }
                 }
@@ -51,14 +50,15 @@ public class StartDialogue : MonoBehaviour
 
     private void BeginDialogue()
     {
-        var textFile = library.dialoguesList[library.dialogueIndex];
+        var textFile = library.dialoguesList[SaveAndLoadSystem.LoadData().dialogueIndex];
+        SaveAndLoadSystem.SaveData(SaveAndLoadSystem.LoadData().dialogueIndex + 1, -1);
 
         if (textFile != null)
         {
             // Split text file into lines
             string[] dialogLines = (textFile.text.Split('\n'));
 
-            dialogueUI.SetActive(true); 
+            dialogueUI.SetActive(true);
 
             gameObject.GetComponent<ThirdPersonMovement>().isPlayerInDialogue = true;
 

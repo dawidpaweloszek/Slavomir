@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/main_test_scene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/CompletedScenes/(00) main menu.unity
+    guid: 5dfeb493acdca324687231443f39693e
   - enabled: 1
-    path: Assets/Scenes/shooting_test_scene.unity
-    guid: 1f7f24cfd2644c54da5d1f151533ffea
+    path: Assets/Scenes/CompletedScenes/(01) zajazd_zakopane.unity
+    guid: ce3df59a6abb68443b76584745e9bb99
   - enabled: 1
-    path: Assets/Scenes/drinking_test_scene.unity
-    guid: e337b5d4bad7826459e5849f10c127ab
+    path: "Assets/Scenes/CompletedScenes/(02) walka_z_m\u0142odym_januszem.unity"
+    guid: b33130395e91b3247891c88765337a84
+  - enabled: 1
+    path: Assets/Scenes/CompletedScenes/(03) zajazd_zakopane_po_walce.unity
+    guid: 562a6b0063da8494cbfe8f88ebbd7593
+  - enabled: 1
+    path: Assets/Scenes/CompletedScenes/(04) time_skip.unity
+    guid: ba535ebed7f5eae42ba274ddb60baf17
+  - enabled: 1
+    path: "Assets/Scenes/CompletedScenes/(05) warszawa_przed_walk\u0105_z_mi\u0142odziadem.unity"
+    guid: 1c707fde386e244499db5c2bc6daac10
   m_configObjects: {}

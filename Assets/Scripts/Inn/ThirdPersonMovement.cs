@@ -13,9 +13,9 @@ public class ThirdPersonMovement : MonoBehaviour
     private float turnSmoothVelocity;
     [Header("jump")]
     [SerializeField] private float jumpHeight;
-    private float gravity = -9.81f;
+    public float gravity = -9.81f;
     private bool isGrounded;
-    private Vector3 velocity;
+    public Vector3 velocity;
     [Header("Animator")]
     [SerializeField] private Animator animator;
     [Header("Camera")]
@@ -29,10 +29,13 @@ public class ThirdPersonMovement : MonoBehaviour
 
         // Check if player is on ground
         isGrounded = controller.isGrounded;
-        if (isGrounded && velocity.y < 0)
+        if (isGrounded && velocity.y <= 0)
         {
             velocity.y = -0.5f;
         }
+
+        controller.Move(velocity * Time.deltaTime);
+        velocity.y += gravity * Time.deltaTime;
 
         // x and z axis movement
         if (!isPlayerInDialogue)
@@ -62,13 +65,11 @@ public class ThirdPersonMovement : MonoBehaviour
             {
                 animator.SetBool("isWalking", false);
             }
+
         }
         else
         {
             TPPCamera.SetActive(false);
         }
-
-        controller.Move(velocity * Time.deltaTime);
-        velocity.y += gravity * Time.deltaTime;
     }
 }

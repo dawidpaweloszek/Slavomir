@@ -11,6 +11,7 @@ public class Dialogue : MonoBehaviour
     public string[] names;
     public float textSpeed;
     public int index;
+    public Animator animator;
 
     public GameObject camera;
 

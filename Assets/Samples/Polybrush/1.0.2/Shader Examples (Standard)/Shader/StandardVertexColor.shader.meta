@@ -4,6 +4,7 @@ ShaderImporter:
   externalObjects: {}
   defaultTextures: []
   nonModifiableTextures: []
-  userData: 
+  preprocessorOverride: 0
+  userData: '{"shaderPath":"Polybrush/Standard Vertex Color","attributes":[]}'
   assetBundleName: 
   assetBundleVariant: 

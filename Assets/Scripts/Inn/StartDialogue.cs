@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StartDialogue : MonoBehaviour
 {
@@ -9,10 +10,19 @@ public class StartDialogue : MonoBehaviour
     public DialoguesLibrary library;
     public GameObject dialogueUI;
     public RaycastHit hit;
+    public Animator animatorFromHit;
+
+    public int indexOfDialogueToNextScene;
+    public string nameOfTheNextScene;
 
     // Update is called once per frame
     void Update()
     {
+        if (!dialogueUI.activeInHierarchy && library.dialogueIndex == indexOfDialogueToNextScene)
+        {
+            SceneManager.LoadScene(nameOfTheNextScene, LoadSceneMode.Single);
+        }
+
         spaceImage.gameObject.SetActive(false);
 
         if (!gameObject.GetComponent<ThirdPersonMovement>().isPlayerInDialogue)
@@ -21,16 +31,18 @@ public class StartDialogue : MonoBehaviour
             {
                 Debug.DrawLine(transform.position, hit.transform.position, Color.red);
 
-                var dialogable = hit.transform.gameObject.GetComponent<Dialogable>().shaftOfLight;
+                var dialogable = hit.transform.gameObject.GetComponent<Dialogable>();
 
-                if (dialogable.activeInHierarchy)
+                if (dialogable.shaftOfLight.activeInHierarchy)
                 {
                     spaceImage.gameObject.SetActive(true);
 
                     if (Input.GetKeyDown(KeyCode.Space))
                     {
+                        animatorFromHit = dialogable.animator;
                         BeginDialogue();
                         spaceImage.gameObject.SetActive(false);
+
                     }
                 }
             }
@@ -53,6 +65,7 @@ public class StartDialogue : MonoBehaviour
             dialogueUI.GetComponent<Dialogue>().index = 0;
             dialogueUI.GetComponent<Dialogue>().lines = dialogLines;
             dialogueUI.GetComponent<Dialogue>().Enable(transform, hit.transform);
+            dialogueUI.GetComponent<Dialogue>().animator = animatorFromHit;
         }
 
         library.dialogueIndex++;

@@ -7,6 +7,8 @@ public class Dialogable : MonoBehaviour
     public GameObject shaftOfLight;
     public DialoguesLibrary dialogues;
     public int[] dialogIndices;
+    public Animator animator;
+    public int animationIndex;
 
     private void Update()
     {

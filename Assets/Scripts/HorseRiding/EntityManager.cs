@@ -20,6 +20,9 @@ public class EntityManager : MonoBehaviour
     public bool isThisPlayer;
     public TMP_Text verdictText;
 
+    public Animator playerAnimator;
+    public GamesEnds endScreen;
+
     public bool CheckForReaction()
     {
         int range = Random.Range(0, 100);
@@ -72,14 +75,14 @@ public class EntityManager : MonoBehaviour
     {
         if (collision.transform.name == "Finish")
         {
-            verdictText.gameObject.SetActive(true);
+            endScreen.gameObject.SetActive(true);
             if (isThisPlayer)
             {
-                verdictText.text = "Gracz wygrywa!";
+                endScreen.verdict = true;
             }
             else
             {
-                verdictText.text = "Przeciwnik wygrywa!";
+                endScreen.verdict = false;
             }
 
             collision.gameObject.SetActive(false);

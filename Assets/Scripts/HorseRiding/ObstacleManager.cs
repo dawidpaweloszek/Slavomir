@@ -27,15 +27,16 @@ public class ObstacleManager : MonoBehaviour
 
             if (Input.GetKey(KeyCode.Space) && isThisBush)
             {
+                other.gameObject.GetComponent<EntityManager>().playerAnimator.SetTrigger("Attack");
                 Destroy(this.gameObject);
             }
             else if(Input.GetKey(KeyCode.Space) && !isThisBush)
             {
+                other.gameObject.GetComponent<EntityManager>().playerAnimator.SetTrigger("Jump");
                 other.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0, 6, 0), ForceMode.Impulse);
                 gameObject.GetComponent<BoxCollider>().enabled = false;
             }
         }
-        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -46,10 +47,12 @@ public class ObstacleManager : MonoBehaviour
     
             if (isThisBush && reaction)
             {
+                other.gameObject.GetComponent<EntityManager>().playerAnimator.SetTrigger("Attack");
                 Destroy(this.gameObject);
             }
             else if (!isThisBush && reaction)
             {
+                other.gameObject.GetComponent<EntityManager>().playerAnimator.SetTrigger("Jump");
                 other.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(1, 6, 0), ForceMode.Impulse);
                 gameObject.GetComponent<BoxCollider>().enabled = false;
             }

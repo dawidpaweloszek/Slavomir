@@ -11,8 +11,11 @@ public class Lean : MonoBehaviour
     [SerializeField] private float minTimeBetweenLeans;
     [SerializeField] private float timeBetweenLeans;
     [SerializeField] private float cTimeBetweenLeans;
-    [SerializeField] private float timeForReaction;
+    //[SerializeField] private float timeForReaction;
     [SerializeField] private float cTimeForReaction;
+    [SerializeField] private float timeOfLeaningAnimation;
+    //[SerializeField] private float cTimeOfLeaningAnimation;
+    public Animator animator;
 
     private void Start()
     {
@@ -26,14 +29,19 @@ public class Lean : MonoBehaviour
 
         if (cTimeBetweenLeans >= timeBetweenLeans)
         {
+            animator.SetBool("IsLeaningForward", false);
+            animator.SetBool("IsLeaningBack", false);
+
             RandomizeDirectionOfLean();
 
             cTimeForReaction += Time.deltaTime;
 
-            if (cTimeForReaction <= timeForReaction)
+            if (cTimeForReaction <= timeOfLeaningAnimation)
             {
                 if (directionOfLean == -1)
                 {
+                    animator.SetBool("IsLeaningBack", true);
+
                     dKeyImage.SetActive(true);
 
                     if (Input.GetKey(KeyCode.D))
@@ -45,11 +53,13 @@ public class Lean : MonoBehaviour
 
                     if (Input.GetKey(KeyCode.A))
                     {
-                        Time.timeScale = 0;
+                        animator.SetBool("IsFalling", true);
                     }
                 }
                 if (directionOfLean == 1)
                 {
+                    animator.SetBool("IsLeaningForward", true);
+
                     aKeyImage.SetActive(true);
 
                     if (Input.GetKey(KeyCode.A))
@@ -61,13 +71,13 @@ public class Lean : MonoBehaviour
 
                     if (Input.GetKey(KeyCode.D))
                     {
-                        Time.timeScale = 0;
+                        animator.SetBool("IsFalling", true);
                     }
                 }
             }
             else
             {
-                Time.timeScale = 0;
+                animator.SetBool("IsFalling", true);
             }
         }
     }

@@ -6,6 +6,7 @@ public class ThirdPersonMovement : MonoBehaviour
 {
     [SerializeField] Transform camera;
     [SerializeField] CharacterController controller;
+    public bool isPlayerInDialogue;
     [Header("x and z movement")]
     [SerializeField] private float speed;
     [SerializeField] private float turnSmoothTime = 0.1f;
@@ -17,9 +18,15 @@ public class ThirdPersonMovement : MonoBehaviour
     private Vector3 velocity;
     [Header("Animator")]
     [SerializeField] private Animator animator;
+    [Header("Camera")]
+    public GameObject TPPCamera;
 
     private void Update()
     {
+        // Lock cursor at the center
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         // Check if player is on ground
         isGrounded = controller.isGrounded;
         if (isGrounded && velocity.y < 0)
@@ -28,29 +35,37 @@ public class ThirdPersonMovement : MonoBehaviour
         }
 
         // x and z axis movement
-        float x = Input.GetAxisRaw("Horizontal");
-        float z = Input.GetAxisRaw("Vertical");
-
-        Vector3 direction = new Vector3(x, 0, z).normalized;
-
-        if (direction.magnitude > 0)
+        if (!isPlayerInDialogue)
         {
-            // Rotate player
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + camera.eulerAngles.y;
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
-            transform.rotation = Quaternion.Euler(0, angle, 0);
+            TPPCamera.SetActive(true);
 
-            // Move player to rotated direction
-            Vector3 moveDirection = Quaternion.Euler(0, targetAngle, 0) * Vector3.forward;
+            float x = Input.GetAxisRaw("Horizontal");
+            float z = Input.GetAxisRaw("Vertical");
 
-            // Move player
-            // Start walking
-            controller.Move(moveDirection.normalized * speed * Time.deltaTime);
-            animator.SetBool("isWalking", true);
+            Vector3 direction = new Vector3(x, 0, z).normalized;
+
+            if (direction.magnitude > 0)
+            {
+                // Rotate player
+                float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + camera.eulerAngles.y;
+                float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
+                transform.rotation = Quaternion.Euler(0, angle, 0);
+
+                // Move player to rotated direction
+                Vector3 moveDirection = Quaternion.Euler(0, targetAngle, 0) * Vector3.forward;
+
+                // Start walking
+                controller.Move(moveDirection.normalized * speed * Time.deltaTime);
+                animator.SetBool("isWalking", true);
+            }
+            else
+            {
+                animator.SetBool("isWalking", false);
+            }
         }
         else
         {
-            animator.SetBool("isWalking", false);
+            TPPCamera.SetActive(false);
         }
 
         controller.Move(velocity * Time.deltaTime);

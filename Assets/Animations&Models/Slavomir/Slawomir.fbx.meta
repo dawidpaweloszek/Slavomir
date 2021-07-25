@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 65d5197833ec0f44daf5803296c444da
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -8013380232700671233
+    second: metarig_slawomir|Idle_nowe
+  - first:
+      74: -1508397468817189455
+    second: metarig_slawomir|Jump
+  - first:
+      74: -5376813859873374749
+    second: metarig_slawomir|Klaskanie
+  - first:
+      74: 2750940483376534336
+    second: metarig_slawomir|Mowa_01
+  - first:
+      74: 3157897992386421094
+    second: metarig_slawomir|Mowa_02
+  - first:
+      74: -4758598924713476129
+    second: metarig_slawomir|Mowa_03
+  - first:
+      74: -4403852054793335562
+    second: metarig_slawomir|Picie_Chwianie_sie_do_przodu
+  - first:
+      74: -7900027446652715146
+    second: metarig_slawomir|Picie_Chwianie_sie_do_spadanie
+  - first:
+      74: 3148155643027242611
+    second: metarig_slawomir|Picie_Chwianie_sie_do_tylu
+  - first:
+      74: 155129817444245842
+    second: metarig_slawomir|Picie_Chwianie_sie_lewo
+  - first:
+      74: 8291516970553232908
+    second: metarig_slawomir|Picie_Chwianie_sie_w_miejscu
+  - first:
+      74: 7016833939661549602
+    second: metarig_slawomir|Picie_Idle
+  - first:
+      74: 6822627448907426298
+    second: metarig_slawomir|Picie_stanie
+  - first:
+      74: -4295604200335345191
+    second: metarig_slawomir|Przeciwnik_Kostki_Idle_kostki
+  - first:
+      74: 6682455242954532255
+    second: metarig_slawomir|Przeciwnik_Kostki_Radosc
+  - first:
+      74: 3517101947920278092
+    second: metarig_slawomir|Przeciwnik_Kostki_Rzucanie
+  - first:
+      74: 8324388940522459452
+    second: metarig_slawomir|Przeciwnik_Kostki_Zalamanie
+  - first:
+      74: -4222103349957260166
+    second: metarig_slawomir|Run
+  - first:
+      74: -96542635331369089
+    second: metarig_slawomir|slawomir.002Action
+  - first:
+      74: 2989703158652792236
+    second: metarig_slawomir|Stanie
+  - first:
+      74: 7817295198240972600
+    second: metarig_slawomir|szabla.002Action
+  - first:
+      74: 1103947951417359241
+    second: metarig_slawomir|szabla.011Action
+  - first:
+      74: 4892713917440410218
+    second: metarig_slawomir|szabla.012Action
+  - first:
+      74: -5647892422382551072
+    second: metarig_slawomir|szabla.013Action
+  - first:
+      74: -2525372893136747390
+    second: metarig_slawomir|szabla.014Action
+  - first:
+      74: -7707577998510361844
+    second: metarig_slawomir|T_Pose
+  - first:
+      74: 5259394325251206222
+    second: metarig_slawomir|Walk
+  - first:
+      74: 9066846731709323774
+    second: metarig_slawomir|Wiwatowanie
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

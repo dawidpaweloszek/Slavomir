@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3785886062165444070, guid: b0d27e34c1c734748b4fc6fdbcd9a77e, type: 3}
+      propertyPath: sceneToLoad
+      value: (03) zajazd_zakopane_po_walce
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0d27e34c1c734748b4fc6fdbcd9a77e, type: 3}
 --- !u!1 &974060363

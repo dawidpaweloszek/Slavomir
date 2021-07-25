@@ -41,8 +41,8 @@ public class StartDialogue : MonoBehaviour
                     {
                         animatorFromHit = dialogable.animator;
                         BeginDialogue();
+                        library.dialogueIndex++;
                         spaceImage.gameObject.SetActive(false);
-
                     }
                 }
             }
@@ -67,7 +67,5 @@ public class StartDialogue : MonoBehaviour
             dialogueUI.GetComponent<Dialogue>().Enable(transform, hit.transform);
             dialogueUI.GetComponent<Dialogue>().animator = animatorFromHit;
         }
-
-        library.dialogueIndex++;
     }
 }

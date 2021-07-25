@@ -40,6 +40,8 @@ public class StartDialogue : MonoBehaviour
                 {
                     spaceImage.gameObject.SetActive(true);
 
+                    //hit.transform.gameObject.transform.LookAt(transform.position + Vector3.up * 1.5f);
+
                     if (Input.GetKeyDown(KeyCode.Space))
                     {
                         animatorFromHit = dialogable.animator;

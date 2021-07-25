@@ -7,7 +7,7 @@ public class Toss : MonoBehaviour
     [SerializeField] private GameObject dice;
     [SerializeField] private Transform hand;
     [SerializeField] private List<GameObject> spawnedDices = new List<GameObject>();
-    [SerializeField] private Animator animator;
+    public Animator animator;
     public float timeToSpawnDices = 3.292f;
     public float cTimeToSpawnDices;
 
@@ -54,6 +54,8 @@ public class Toss : MonoBehaviour
     {
         if (isTossing && !wantToToss)
         {
+            animator.SetBool("IsTossing", true);
+
             cTimeToSpawnDices += Time.deltaTime;
 
             if (cTimeToSpawnDices >= timeToSpawnDices)
@@ -62,9 +64,6 @@ public class Toss : MonoBehaviour
                 TossDices();
                 isTossing = false;
             }
-
-            if (!wantToToss)
-                animator.SetBool("IsTossing", true);
         }
 
         bool canReadValues = true;
@@ -86,6 +85,7 @@ public class Toss : MonoBehaviour
     private void ReadValues()
     {
         int points = 0;
+        bool flag = true;
 
         for (int i = 0; i < spawnedDices.Count; i++)
         {

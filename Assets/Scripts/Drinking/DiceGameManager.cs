@@ -44,7 +44,7 @@ public class DiceGameManager : MonoBehaviour
             if (isPlayerWonRound[0] && isPlayerWonRound[1])
             {
                 endGameScreen.SetActive(true);
-                endGameScreen.GetComponent<GamesEnds>().verdict = "Gracz wygra³ dwie pierwsze rundy!";
+                endGameScreen.GetComponent<GamesEnds>().verdict = true;
                 doPlayerWon = true;
             }
 
@@ -52,7 +52,7 @@ public class DiceGameManager : MonoBehaviour
             if (!isPlayerWonRound[0] && !isPlayerWonRound[1])
             {
                 endGameScreen.SetActive(true);
-                endGameScreen.GetComponent<GamesEnds>().verdict = "Przeciwnik wygra³ dwie pierwsze rundy!";
+                endGameScreen.GetComponent<GamesEnds>().verdict = false;
                 doPlayerWon = false;
             }
         }
@@ -63,14 +63,14 @@ public class DiceGameManager : MonoBehaviour
                 (!isPlayerWonRound[0] && isPlayerWonRound[1] && isPlayerWonRound[2]))        // 0 1 1
             {
                 endGameScreen.SetActive(true);
-                endGameScreen.GetComponent<GamesEnds>().verdict = "Gracz wygra³!";
+                endGameScreen.GetComponent<GamesEnds>().verdict = true;
                 doPlayerWon = true;
             }
             if ((!isPlayerWonRound[0] && isPlayerWonRound[1] && !isPlayerWonRound[2]) ||      // 0 1 0
                 (isPlayerWonRound[0] && !isPlayerWonRound[1] && !isPlayerWonRound[2]))        // 1 0 0
             {
                 endGameScreen.SetActive(true);
-                endGameScreen.GetComponent<GamesEnds>().verdict = "Przeciwnik wygra³!";
+                endGameScreen.GetComponent<GamesEnds>().verdict = false;
                 doPlayerWon = false;
             }
         }
@@ -162,16 +162,19 @@ public class DiceGameManager : MonoBehaviour
             {
                 verdict.text = "Gracz wygrywa!";
                 isPlayerWonRound[roundNumber] = true;
+                GameObject.Find("Enemy").GetComponent<Toss>().animator.SetTrigger("IfPlayerWon");
             }
             else if (playerPoints < enemyPoints)
             {
                 verdict.text = "Przeciwnik wygrywa!";
                 isPlayerWonRound[roundNumber] = false;
+                GameObject.Find("Enemy").GetComponent<Toss>().animator.SetTrigger("IfPlayerLost");
             }
             else
             {
                 verdict.text = "Remis!";
                 isPlayerWonRound[roundNumber] = false;
+                GameObject.Find("Enemy").GetComponent<Toss>().animator.SetTrigger("IfPlayerWon");
             }
 
             roundNumber++;

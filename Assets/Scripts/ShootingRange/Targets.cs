@@ -2,11 +2,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using TMPro;
-using UnityEngine.SceneManagement;
 
 public class Targets : MonoBehaviour
 {
     public static Targets instance;
+
+    public GameObject endScreen;
 
     [Header("Grid")]
     public Vector2 bordersX;
@@ -26,7 +27,7 @@ public class Targets : MonoBehaviour
     [SerializeField] private float timer;
     [SerializeField] private TMP_Text timerText;
     private TimeSpan timePlaying;
-    private float elapsedTime;
+    public float elapsedTime;
 
     private void Awake()
     {
@@ -47,7 +48,6 @@ public class Targets : MonoBehaviour
         }
 
         timerText.text = "Czas: 00:00.00";
-        elapsedTime = 0f;
 
         targetsCount = spawnedTargets.Count;
         targetsText.text = "Cele: " + targetsCount.ToString() + "/" + numberOfTargets;
@@ -56,7 +56,7 @@ public class Targets : MonoBehaviour
     private void Update()
     {
         // Update timer
-        elapsedTime += Time.deltaTime;
+        elapsedTime -= Time.deltaTime;
 
         timerText.text = timer.ToString();
         timePlaying = TimeSpan.FromSeconds(elapsedTime);
@@ -67,7 +67,19 @@ public class Targets : MonoBehaviour
 
         if (targetsCount <= 0)
         {
-            SceneManager.LoadScene("main_test_scene", LoadSceneMode.Single);
+            if (elapsedTime > 0)
+            {
+                endScreen.SetActive(true);
+                endScreen.GetComponent<GamesEnds>().verdict = true;
+            }
+        }
+        if (targetsCount > 0)
+        {
+            if (elapsedTime <= 0)
+            {
+                endScreen.SetActive(true);
+                endScreen.GetComponent<GamesEnds>().verdict = false;
+            }
         }
     }
 

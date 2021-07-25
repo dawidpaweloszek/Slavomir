@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5223cc5352aadc041a8eac73adea9e44, type: 3}
   m_Name: DialoguesLibrary
   m_EditorClassIdentifier: 
-  dialogueIndex: 3
+  dialogueIndex: 0
   dialoguesList:
   - {fileID: 4900000, guid: 82e83b43bc868dc4fbb7831fa8af19c0, type: 3}
   - {fileID: 4900000, guid: 2cb565cd03a4b894d8803b8038f403a9, type: 3}

@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/Scenes/CompletedScenes/(08) mapa_uko\u0144czona_wwa.unity"
-    guid: 93f6fd66f0362024b8e92090e279a683
-  - enabled: 1
     path: Assets/Scenes/CompletedScenes/(00) main menu.unity
     guid: 5dfeb493acdca324687231443f39693e
   - enabled: 1
@@ -32,4 +29,16 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/CompletedScenes/(07) warszawa_po_walce_z_mi\u0142odziadem.unity"
     guid: 825332475ac94ab469307ff15b4deaa3
+  - enabled: 1
+    path: "Assets/Scenes/CompletedScenes/(08) mapa_uko\u0144czona_wwa.unity"
+    guid: 93f6fd66f0362024b8e92090e279a683
+  - enabled: 1
+    path: "Assets/Scenes/CompletedScenes/(09) grodno_przed_wy\u015Bcigiem.unity"
+    guid: 8971ee4fe5215a34294c7fd2b2d3c947
+  - enabled: 1
+    path: "Assets/Scenes/CompletedScenes/(10) wy\u015Bcig_ze_szlachcicem.unity"
+    guid: 681a01cc7daacd44082d228c175282c2
+  - enabled: 1
+    path: "Assets/Scenes/CompletedScenes/(11) grodno_po_wy\u015Bcigu.unity"
+    guid: 18900a320d285fe4aa15f03e9254c9ff
   m_configObjects: {}

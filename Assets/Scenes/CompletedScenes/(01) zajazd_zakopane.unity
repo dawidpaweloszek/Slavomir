@@ -61672,7 +61672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shaftOfLight: {fileID: 626726292529556850}
   dialogues: {fileID: 11400000, guid: fc68b8f072487464b813bb453ebe2093, type: 2}
-  dialogIndices: 0000000001000000
+  dialogIndices: 00000000
   animator: {fileID: 8947239159198982270}
   animationIndex: 0
 --- !u!4 &1434033326502309413
@@ -62489,7 +62489,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855431467394525019}
-  m_LocalRotation: {x: 0.04100487, y: -0.014824578, z: 0.0006084586, w: 0.9990488}
+  m_LocalRotation: {x: 0.04100487, y: -0.014824573, z: 0.0006084584, w: 0.9990488}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -62729,7 +62729,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855431467479002511}
-  m_LocalRotation: {x: 0.077268235, y: -0.014792693, z: 0.0011465595, w: 0.99689996}
+  m_LocalRotation: {x: 0.0772682, y: -0.014792691, z: 0.0011465588, w: 0.99689996}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

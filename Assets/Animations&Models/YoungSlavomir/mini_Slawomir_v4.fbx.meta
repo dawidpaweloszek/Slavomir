@@ -147,7 +147,17 @@ ModelImporter:
   - first:
       74: 9088210004930356559
     second: metarig_slawomir_konik.002|Wiwatowanie
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kij
+    second: {fileID: 2100000, guid: e8f7ec6a05d52c140b83d95dedc53ebd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Slawomir.001
+    second: {fileID: 2100000, guid: 7e4984485e4ad9641a440cc1b3b1a636, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

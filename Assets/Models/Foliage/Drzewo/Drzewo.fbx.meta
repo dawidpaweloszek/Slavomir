@@ -21,7 +21,17 @@ ModelImporter:
   - first:
       74: 2787758283876939621
     second: Drzewo_LOD0|Cylinder.001Action
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree
+    second: {fileID: 2100000, guid: add4eef4e696ebe4da77fc6bd2b99b69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree_leaf
+    second: {fileID: 2100000, guid: 0a76fcc2cb38dc54cb9f7b0e713cbb97, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

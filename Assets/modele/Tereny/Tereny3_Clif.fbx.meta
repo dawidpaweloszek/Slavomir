@@ -3,7 +3,17 @@ guid: 108485552caf6eb47908434f8ee5ce4b
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gory
+    second: {fileID: 2100000, guid: 5cc95c0759ae28044879c273773f8e3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Landscape
+    second: {fileID: 2100000, guid: 6ba1df46fec8cb046a1de7fc3adfc15d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

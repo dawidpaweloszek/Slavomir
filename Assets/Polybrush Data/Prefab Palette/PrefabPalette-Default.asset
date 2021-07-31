@@ -32,10 +32,10 @@ MonoBehaviour:
   - gameObject: {fileID: 919132149155446097, guid: 989fadbaa6cf361438e620cdfdbc4d45, type: 3}
     settings:
       m_Strength: 50
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_RotationRangeMin: {x: 56.047905, y: 0, z: 0}
+      m_RotationRangeMax: {x: 295.32935, y: 25.868263, z: 73.29341}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1.8383234, y: 2.5568862, z: 2.0778441}
       m_UniformScale: {x: 1, y: 1}
       m_UniformBool: 0
       m_XRotationBool: 0
@@ -413,3 +413,19 @@ MonoBehaviour:
       m_YScaleBool: 0
       m_ZScaleBool: 0
     name: rpgpp_lt_plant_02
+  - gameObject: {fileID: 919132149155446097, guid: cbd04a5f6b58a924e9c8900ac9d7f900, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Rzepak

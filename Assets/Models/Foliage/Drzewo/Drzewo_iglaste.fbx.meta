@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: tree
-    second: {fileID: 2100000, guid: 2ff6fd8ed4a4d32498751240e2006662, type: 2}
+    second: {fileID: 2100000, guid: add4eef4e696ebe4da77fc6bd2b99b69, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,8 +44,10 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages:
-    - 0.25
-    - 0.01
+    - 0.20877798
+    - 0.14613958
+    - 0.08763119
+    - 0.031180525
     globalScale: 1
     meshCompression: 0
     addColliders: 0

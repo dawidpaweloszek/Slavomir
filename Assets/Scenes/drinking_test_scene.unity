@@ -402,5 +402,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: DrinkGame
       objectReference: {fileID: 0}
+    - target: {fileID: 3415302810665635198, guid: 1a7299268509ce74b935ec1199edcf49, type: 3}
+      propertyPath: m_text
+      value: Zawody w piciu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843817223256501524, guid: 1a7299268509ce74b935ec1199edcf49, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 105159031c726fb4db4098f045ad7100, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a7299268509ce74b935ec1199edcf49, type: 3}
